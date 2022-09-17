@@ -42,3 +42,15 @@ body,
   color: white;
   text-align: center;
 }
+
+@media screen and (max-width: 720px) {
+  .component {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .component {
+    font-size: 3rem;
+  }
+}
